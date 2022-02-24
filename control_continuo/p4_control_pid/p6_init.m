@@ -13,8 +13,8 @@ Ki = 15;
 Kd = 0.3;
 
 % Resistencias y capacitores
-r = 10e3;
-c = 10e-9;
+r = 1e3;
+c = 1e-6;
 
 rp = Kp*r
 ri = 1/(Ki*c)
