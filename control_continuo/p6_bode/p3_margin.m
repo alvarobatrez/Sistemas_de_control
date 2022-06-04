@@ -12,7 +12,3 @@ bode(G), grid on, hold on
 Kp = 0.05;
 
 bode(Kp*G)
-
-L = feedback(Kp*G,1);
-
-figure, step(L)
